@@ -10,7 +10,7 @@ Feature: logintest
   #parameter
   Scenario: login successful with param
   Given I want to open browser
-  When I set username "Administrator" and password "123456"
+  When I set username "Administrator" and password "1111"
   
   #data driven
   Scenario Outline: login successful with param
@@ -19,6 +19,6 @@ Feature: logintest
   
   Examples:
   	| username | password |
-  	| Andy Hansson | 123456 |
-  	| Jack Johnson | 123456 |
+  	| Andy Hansson | 1111 |
+  	| Jack Johnson | 1111 |
   
